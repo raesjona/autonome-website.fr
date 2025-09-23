@@ -24,5 +24,3 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           AFFILIATE_LINKS: ${{ secrets.AFFILIATE_LINKS }}
         run: python autonomos.py
-
-
